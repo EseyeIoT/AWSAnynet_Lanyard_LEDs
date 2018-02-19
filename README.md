@@ -7,3 +7,6 @@ This application subscribes to leds/<thingname> and lights the lanyard LEDs acco
 message format: 
 { "leds": "255.255.255"} to light all LEDs white
 { "led1": "255,0,0"} to turn LED1 red
+
+Use these files in a mongoose-os project.
+
